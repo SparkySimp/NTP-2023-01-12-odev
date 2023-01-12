@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,15 +25,19 @@ namespace NTP_2023_01_12_odev
     }
     public class CardImagesList
     {
-        List<System.Drawing.Image> cardImages = 
-            new List<System.Drawing.Image> 
-            { CardImages.Img1, CardImages.Img2, CardImages.Img3, CardImages.Img4,
-                CardImages.Img5, CardImages.Img6, CardImages.Img7, CardImages.Img8 };
+        List<System.Drawing.Image> cardImages =
+            new List<System.Drawing.Image>();
 
         public System.Drawing.Image this[int id] => cardImages[id];
 
         public CardImagesList()
         {
+            Type tCardImages = typeof(CardImages);
+            PropertyInfo[] imageMembers = tCardImages.GetProperties();
+            foreach (var img in imageMembers)
+            {
+                cardImages.Add((System.Drawing.Image)img.GetValue(null));
+            }
             var imgClone = new List<System.Drawing.Image>(cardImages);
             imgClone.AddRange(new List<System.Drawing.Image>(cardImages));
             imgClone.Shuffle();

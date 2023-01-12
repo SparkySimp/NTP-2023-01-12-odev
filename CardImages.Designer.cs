@@ -22,7 +22,7 @@ namespace NTP_2023_01_12_odev {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class CardImages {
+    internal class CardImages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace NTP_2023_01_12_odev {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NTP_2023_01_12_odev.CardImages", typeof(CardImages).Assembly);
@@ -51,7 +51,7 @@ namespace NTP_2023_01_12_odev {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,9 +63,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img1 {
+        internal static System.Drawing.Bitmap _2abd6969_f556_49ae_8d81_a61739d40a3f {
             get {
-                object obj = ResourceManager.GetObject("Img1", resourceCulture);
+                object obj = ResourceManager.GetObject("_2abd6969_f556_49ae_8d81_a61739d40a3f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img2 {
+        internal static System.Drawing.Bitmap _2fd5eb08_43b8_4e33_bc46_2c694aa7caf1 {
             get {
-                object obj = ResourceManager.GetObject("Img2", resourceCulture);
+                object obj = ResourceManager.GetObject("_2fd5eb08_43b8_4e33_bc46_2c694aa7caf1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img3 {
+        internal static System.Drawing.Bitmap _40be127a_5d9f_4ae7_8e06_c670f300f1d1 {
             get {
-                object obj = ResourceManager.GetObject("Img3", resourceCulture);
+                object obj = ResourceManager.GetObject("_40be127a_5d9f_4ae7_8e06_c670f300f1d1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img4 {
+        internal static System.Drawing.Bitmap _5c1f0ece_d01d_44b8_9114_602a33a24cd3 {
             get {
-                object obj = ResourceManager.GetObject("Img4", resourceCulture);
+                object obj = ResourceManager.GetObject("_5c1f0ece_d01d_44b8_9114_602a33a24cd3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img5 {
+        internal static System.Drawing.Bitmap _80e2ea4e_2f1f_44c5_89f3_4a03d3c695c5 {
             get {
-                object obj = ResourceManager.GetObject("Img5", resourceCulture);
+                object obj = ResourceManager.GetObject("_80e2ea4e_2f1f_44c5_89f3_4a03d3c695c5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img6 {
+        internal static System.Drawing.Bitmap _9f073f3f_4f87_4af2_b826_6580b01ca1bd {
             get {
-                object obj = ResourceManager.GetObject("Img6", resourceCulture);
+                object obj = ResourceManager.GetObject("_9f073f3f_4f87_4af2_b826_6580b01ca1bd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img7 {
+        internal static System.Drawing.Bitmap b80c10da_1371_418f_90f6_8612eef77a1f {
             get {
-                object obj = ResourceManager.GetObject("Img7", resourceCulture);
+                object obj = ResourceManager.GetObject("b80c10da_1371_418f_90f6_8612eef77a1f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace NTP_2023_01_12_odev {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Img8 {
+        internal static System.Drawing.Bitmap CBF9F046_F3BE_4F6B_B326_D79A1091A127 {
             get {
-                object obj = ResourceManager.GetObject("Img8", resourceCulture);
+                object obj = ResourceManager.GetObject("CBF9F046_F3BE_4F6B_B326_D79A1091A127", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
