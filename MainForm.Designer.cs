@@ -30,16 +30,16 @@ namespace NTP_2023_01_12_odev
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.niMain = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // notifyIcon1
             // 
-            this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.notifyIcon1.BalloonTipText = "Yükleme Tamamlandı";
-            this.notifyIcon1.BalloonTipTitle = "NTP Ödevi";
-            this.notifyIcon1.Text = "NTP Ödevi Çalışıyor";
-            this.notifyIcon1.Visible = true;
+            this.niMain.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.niMain.BalloonTipText = "Yükleme Tamamlandı";
+            this.niMain.BalloonTipTitle = "NTP Ödevi";
+            this.niMain.Text = "NTP Ödevi Çalışıyor";
+            this.niMain.Visible = true;
             // 
             // MainForm
             // 
@@ -55,7 +55,7 @@ namespace NTP_2023_01_12_odev
 
         #endregion
 
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.NotifyIcon niMain;
     }
 }
 

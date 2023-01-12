@@ -33,7 +33,10 @@ namespace NTP_2023_01_12_odev
 
         public CardImagesList()
         {
-            cardImages.Shuffle();
+            var imgClone = new List<System.Drawing.Image>(cardImages);
+            imgClone.AddRange(new List<System.Drawing.Image>(cardImages));
+            imgClone.Shuffle();
+            cardImages = new List<global::System.Drawing.Image>(imgClone);
         }
     }
 }

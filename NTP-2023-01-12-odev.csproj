@@ -96,7 +96,7 @@
     <None Include="Resources\9f073f3f-4f87-4af2-b826-6580b01ca1bd.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2023-01-12 at 11.50.40 AM.jpeg" />
+    <Content Include="Resources\7C4A35B5-F67A-4259-860E-88CB7D6A37A7.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2abd6969-f556-49ae-8d81-a61739d40a3f.jpg" />
